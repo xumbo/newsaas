@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build:staging": "env-cmd -f .env.staging next build",
-    "build:prod": "env-cmd -f .env.production next build",
-    "start:staging": "env-cmd -f .env.staging next start",
-    "start:prod": "env-cmd -f .env.production next start",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit"
   },
