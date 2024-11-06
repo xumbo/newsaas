@@ -1,16 +1,15 @@
-import { Header } from '@/components/layout/Header'
-import { Hero } from '@/components/landing/Hero'
-import { Footer } from '@/components/layout/Footer'
+import Hero from '@/components/landing/Hero'
+import Services from '@/components/landing/Services'
+import Cases from '@/components/landing/Cases'
+import RecentPosts from '@/components/landing/RecentPosts'
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow">
-        <Hero />
-        {/* Outras seções serão adicionadas aqui */}
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Hero />
+      <Services />
+      <Cases />
+      <RecentPosts />
+    </>
   )
 } 
