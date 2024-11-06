@@ -26,11 +26,58 @@ newsaas/
 │   │       ├── Footer
 │   │       ├── Sidebar
 │   │       └── Layout
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-└── docs/                  # Documentação detalhada
+│   ├── pages/            # Páginas da aplicação
+│   ├── styles/           # Estilos globais
+│   ├── services/         # Serviços e integrações
+│   └── utils/            # Utilitários
+└── docs/                 # Documentação detalhada
 ```
+
+## 🏷️ Labels do Projeto
+
+### Tipo de Issue
+- 🐛 `bug`: Problemas ou falhas no sistema
+- ✨ `feature`: Novas funcionalidades
+- 📝 `documentation`: Melhorias na documentação
+- 🎨 `enhancement`: Melhorias em features existentes
+- 🏗️ `infrastructure`: Mudanças de infraestrutura
+- 🔒 `security`: Questões de segurança
+
+### Prioridades
+- 🔥 `priority-high`: Necessita atenção imediata
+- 📌 `priority-medium`: Prioridade normal
+- 🔽 `priority-low`: Pode esperar
+
+### Status
+- 👀 `review-needed`: Precisa de revisão
+- 🚧 `in-progress`: Em desenvolvimento
+- ✅ `ready`: Pronto para merge
+
+## 🎯 Milestones
+
+### Milestone 1: Fundação (Atual)
+- Setup inicial do projeto
+- Implementação de componentes base
+- Sistema de temas (claro/escuro)
+- Documentação inicial
+
+### Milestone 2: Autenticação
+- Integração com Auth0
+- Sistema de login/registro
+- Proteção de rotas
+- Perfis de usuário
+
+### Milestone 3: Core Features
+- Dashboard principal
+- Gerenciamento de usuários
+- Configurações do sistema
+- Sistema de pagamentos
+
+### Milestone 4: Melhorias
+- Otimização de performance
+- Implementação de testes
+- Melhorias de SEO
+- Implementação de analytics
 
 ## 🛠️ Setup do Projeto
 
@@ -51,10 +98,21 @@ newsaas/
    npm run dev
    ```
 
+3. **Ambiente de Desenvolvimento**
+   - O projeto estará disponível em `http://localhost:3000`
+
 ## 📝 Changelog
 
-### [0.1.0] - 2024-03-11
-- ✨ Setup inicial do projeto
-- 🎨 Implementação do sistema de temas (claro/escuro)
-- 🧱 Criação dos componentes base (Button, Card, Input, Badge)
-- 📱 Layout responsivo com Header, Sidebar e Footer
+Consulte o arquivo [CHANGELOG.md](CHANGELOG.md) para ver todas as alterações do projeto.
+
+## 🤝 Contribuição
+
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
+3. Faça o Commit das suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
