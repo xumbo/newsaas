@@ -4,39 +4,38 @@
 
 ### Local (Desenvolvimento)
 - URL: http://localhost:3000
-- Uso: Desenvolvimento e testes locais
+- Uso: Desenvolvimento e testes
 - Variáveis: .env.local
 
 ### Produção
-- URL: [será definida]
+- URL: [a definir]
 - Uso: Ambiente real
 - Variáveis: Definidas no deploy
 
-## 📝 Processo de Validação
+## 📝 Áreas do Sistema
 
-1. **Desenvolvimento Local**
-   - Desenvolver feature
-   - Testes locais
-   - Code review
+### Pública
+- Landing page
+- Página de serviços
+- Blog (futuro)
+- Sobre (futuro)
 
-2. **Testes**
-   - Rodar testes automatizados
-   - Verificar lint/type checking
-   - Validar build local
+### Área Logada
+- Dashboard
+- Configurações
+- Perfil
 
-3. **Code Review**
-   - Pull Request
-   - CI checks
-   - Review do código
+## ✅ Checklist de Desenvolvimento
 
-4. **Deploy Produção**
-   - Merge na main
-   - Build e deploy
-   - Verificação pós-deploy
+### Nova Feature
+1. Criar branch feature/*
+2. Desenvolver componentes
+3. Testar localmente
+4. Documentar alterações
+5. Criar PR
 
-## ✅ Checklist de Release
-- [ ] Testes passando
-- [ ] Build sem erros
-- [ ] Code review aprovado
-- [ ] Documentação atualizada
-- [ ] Changelog atualizado 
+### Deploy
+1. Build local
+2. Testes
+3. Merge para main
+4. Deploy automático

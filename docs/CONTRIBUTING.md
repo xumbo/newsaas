@@ -1,38 +1,30 @@
 # Guia de Contribuição
 
-## Fluxo de Branches
+## 🚀 Como Contribuir
 
-- `main`: Código em produção
-- `develop`: Branch principal de desenvolvimento
-- `feature/*`: Novas funcionalidades
-- `fix/*`: Correções de bugs
-- `release/*`: Preparação para release
-- `hotfix/*`: Correções urgentes em produção
+1. Fork o projeto
+2. Crie sua branch: `git checkout -b feature/nome`
+3. Commit suas mudanças: `git commit -m "feat: Adiciona funcionalidade"`
+4. Push: `git push origin feature/nome`
+5. Abra um Pull Request
 
-## Processo de Desenvolvimento
+## 📝 Padrões
 
-1. **Criar nova feature**:
-   ```bash
-   git checkout develop
-   git pull origin develop
-   git checkout -b feature/nome-da-feature
-   ```
+### Código
+- TypeScript strict
+- ESLint
+- Prettier
+- Componentes funcionais
+- Hooks
 
-2. **Desenvolvimento**:
-   - Faça suas alterações
-   - Mantenha os commits organizados
-   - Siga os padrões do projeto
+### Componentes
+- Pasta própria
+- index.tsx
+- Tipos definidos
+- Documentação básica
 
-3. **Enviar alterações**:
-   ```bash
-   git push origin feature/nome-da-feature
-   ```
-
-4. **Pull Request**:
-   - Abra PR para `develop`
-   - Aguarde review
-   - Resolva comentários se necessário
-
-5. **Merge**:
-   - Squash and merge para `develop`
-   - Delete branch após merge 
+### Estilo
+- Tailwind CSS
+- Design system consistente
+- Responsivo
+- Dark mode

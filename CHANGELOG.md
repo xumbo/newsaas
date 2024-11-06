@@ -1,27 +1,22 @@
 # Changelog
 
-Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
-
-## [0.1.0] - 2024-03-11
+## [0.2.0] - 2024-03-15
 
 ### Adicionado
-- Setup inicial do projeto com Next.js 15.0.2
-- Configuração do Tailwind CSS
-- Sistema de temas (claro/escuro)
-- Componentes base:
-  - Button
-  - Card
-  - Input
-  - Badge
-- Layout base:
-  - Header
-  - Sidebar
-  - Footer
-- Configuração inicial do TypeScript
-- Documentação inicial
+- Landing page completa com:
+  - Hero section atualizada
+  - Grid de serviços (6 cards)
+  - Carrossel de cases
+  - Posts recentes do blog
+- Página de serviços
+- Layouts separados (público/dashboard)
+- Header com navegação
+- Footer institucional
 
-### Configurações Técnicas
-- Next.js configurado com TypeScript
-- Tailwind CSS instalado e configurado
-- Sistema de temas implementado
-- Estrutura de componentes organizada 
+### Modificado
+- Estrutura de componentes reorganizada
+- Sistema de layouts dividido em público e dashboard
+- Hero section com novo texto e CTA único
+
+## [0.1.0] - 2024-03-11
+- Setup inicial do projeto
